@@ -5,9 +5,8 @@
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
 
-Vendor Delivery Service - Track Vendors, Orders and Riders for your local area. 
+Vendor Delivery Service - Track Vendors, Orders, Riders and Deliveries for your local area. 
 
 ## Install
 
