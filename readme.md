@@ -8,6 +8,13 @@
 
 Vendor Delivery Service - Track Vendors, Orders, Riders and Deliveries for your local area. 
 
+## ToDo
+
+- Add role / access control to users
+- Complete Vendor Controller with correct rights - add screens?
+- Add `product` controller - a vendor has a product, name, price
+- Add Rider Controller - `art make:model Rider -a`
+
 ## Install
 
 Install like a laravel package innit
