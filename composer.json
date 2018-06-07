@@ -1,9 +1,21 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "name": "stumason/vendor-delivery",
     "type": "project",
+    "description": "Arrange deliveries for vendors near you",
+    "keywords": [
+        "stumason",
+        "vendor-delivery"
+    ],
+    "homepage": "https://github.com/stumason/vendor-delivery",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stu Mason",
+            "email": "stu@stuartmason.co.uk",
+            "homepage": "https://www.stuartmason.co.uk",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
@@ -47,7 +59,10 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover"
-        ]
+        ],
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
     },
     "config": {
         "preferred-install": "dist",
