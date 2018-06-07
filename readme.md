@@ -1,4 +1,4 @@
-# vendor-delivery
+# Vendor Delivery
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,38 +7,11 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Stu Mason``` ```stumason``` ```https://www.stuartmason.co.uk``` ```stu@stuartmason.co.uk``` ```stumason``` ```vendor-delivery``` ```Arrange deliveries for vendors near you``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
-
-## Structure
-
-If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
-
-```
-bin/        
-config/
-src/
-tests/
-vendor/
-```
-
+Vendor Delivery Service - Track Vendors, Orders and Riders for your local area. 
 
 ## Install
 
-Via Composer
-
-``` bash
-$ composer require stumason/vendor-delivery
-```
-
-## Usage
-
-``` php
-$skeleton = new stumason\vendor-delivery();
-echo $skeleton->echoPhrase('Hello, League!');
-```
+Install like a laravel package innit
 
 ## Change log
 
@@ -78,6 +51,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-travis]: https://travis-ci.org/stumason/vendor-delivery
 [link-scrutinizer]: https://scrutinizer-ci.com/g/stumason/vendor-delivery/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/stumason/vendor-delivery
-[link-downloads]: https://packagist.org/packages/stumason/vendor-delivery
 [link-author]: https://github.com/stumason
 [link-contributors]: ../../contributors
